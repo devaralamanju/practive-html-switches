@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="main">manjula heading</h1>
+    <button onclick="abc()">change color</button>
+    <button onmouseover="efg()">on hover backgound color change</button>
+    <button onclick="xyz()">on click text change </button>
+    <script>
+        function abc(){
+            document.getElementById("main").style.color = "blue";
+        }
+       function xyz(){
+        document.getElementById("main").innerHTML = "new text changed";
+       }
+       function efg(){
+        document.getElementById("main").style.backgroundColor = "red";
+       }
+        
+
+    </script>
+</body>
+</html>
